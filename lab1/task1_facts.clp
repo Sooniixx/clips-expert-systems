@@ -1,0 +1,11 @@
+(deffacts family-facts
+   (relation father Tom John)
+   (relation mother Susan John)
+   (relation parents Tom Susan John)
+   (role Tom father)
+   (role Susan mother)
+   (role John son)
+   (gender Tom male)
+   (gender Susan female)
+   (gender John male)
+)
